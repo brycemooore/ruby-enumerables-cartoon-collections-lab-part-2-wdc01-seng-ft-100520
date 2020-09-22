@@ -20,7 +20,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   greater_than_four = false 
   planeteer_calls.each {|string|
-    if string.length > 4
+    if string.size > 4
       greater_than_four = true 
     end
   }
